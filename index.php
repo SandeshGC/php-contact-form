@@ -100,18 +100,18 @@ if (isset($_POST['first_name'])) {
                 <div class="my-2 d-flex gap-3 justify-content-between">
                     <div class="form-group">
                         <label> First Name </label>
-                        <input type="text" name="first_name" id="first_name" placeholder="Your first name" class="form-control" />
+                        <input type="text" name="first_name" id="first_name" placeholder="Your first name" class="form-control" required />
                     </div>
                     <div class="form-group">
                         <label> Last Name </label>
-                        <input type="text" name="last_name" id="last_name" placeholder="Your last name" class="form-control" />
+                        <input type="text" name="last_name" id="last_name" placeholder="Your last name" class="form-control" required />
                     </div>
                 </div>
 
                 <div class="form-group my-2">
                     <label>Email</label>
 
-                    <input type="text" name="email" id="email" placeholder="Your email address" class="form-control" />
+                    <input type="text" name="email" id="email" placeholder="Your email address" class="form-control" required />
                 </div>
                 <div class="form-group my-2">
                     <label> Company </label>
@@ -121,13 +121,13 @@ if (isset($_POST['first_name'])) {
                 <div class="form-group my-2">
                     <label> Subject </label>
 
-                    <input type="text" name="subject" id="subject" placeholder="Subject for the message" class="form-control" />
+                    <input type="text" name="subject" id="subject" placeholder="Subject for the message" class="form-control" required />
                 </div>
 
                 <div class="form-group my-2">
                     <label> Message </label>
 
-                    <textarea type="text" name="message" id="message" placeholder="Enter your message" class="form-control"></textarea>
+                    <textarea type="text" name="message" id="message" placeholder="Enter your message" class="form-control" required></textarea>
                 </div>
 
                 <div class="form-group my-3">
