@@ -17,7 +17,6 @@ This project is a simple contact form that allows users to send messages through
 
 - User-friendly contact form
 - Validation of user input
-- Email notification upon form submission
 
 ## Getting Started
 
@@ -43,4 +42,5 @@ To run this project locally, follow these steps:
 
 - Implement CAPTCHA to prevent spam submissions
 - Add client-side form validation using JavaScript
-- Store submitted messages in a database for future reference
+- Email notification upon form submission
+- Send a copy of email for preview to the person who submitted the form
